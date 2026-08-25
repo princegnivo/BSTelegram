@@ -23,3 +23,18 @@ Bot Telegram pour les signaux de trading Pocket Option avec analyse technique en
 ```bash
 git clone https://github.com/yourusername/pocket-signal-bot.git
 cd pocket-signal-bot
+
+2. Installez les dépendances:
+```bash
+pip install -r requirements.txt
+
+3. Configurez le fichier . env:
+env
+
+```TELEGRAM_BOT_TOKEN=YOUR_BOT_TOKEN
+POCKET_SSID=YOUR_SSID
+POCKET_DEMO=true
+
+4. Lancez le bot:
+```bash
+python run.py
